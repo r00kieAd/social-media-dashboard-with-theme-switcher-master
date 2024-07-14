@@ -3,6 +3,18 @@
   font-style: normal;
 }
 
+#bg {
+  margin: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20vh 100%;
+  background: hsl(225, 100%, 98%);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 #main {
   position: absolute;
   top: 50%;

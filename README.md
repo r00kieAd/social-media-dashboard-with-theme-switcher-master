@@ -18,6 +18,7 @@ b) CSS3 (for looks)
 c) SASS (for CSS)
 d) JavaScript (for JQuery)
 e) JQuery (for DOM)
+f) VSCode (for Coding)
 ```
 
 ## License

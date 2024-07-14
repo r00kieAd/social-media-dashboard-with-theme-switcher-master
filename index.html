@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c99c2be3a8.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div id="main" class="main-div">
+  <div id="main" class="main-div inter-font">
     <div id="subMain" class="sub-main-div">
       <div class="title">
-        <div class="title-div title-div-1">
+        <div class="titles title-div-1">
           <p class="heading">Social Media Dashboard</p>
           <span class="stat-heading">Total Followers: 23,004</span>
         </div>
-        <div class="theme-toggle">
-          <span class="mode">Dark Mode</span>
+        <div class="theme-toggle title-div-2">
+          <span class="mode">Light Mode</span>
           <div class="toggle-main">
-            to be constucted
+            <label for="myToggle" class="toggle">
+              <input class="toggle__input" type="checkbox" id="myToggle">
+              <div class="toggle__fill"></div>
+            </label>
           </div>
         </div>
       </div>
-      <div id="main-stats-grid">
+      <div id="mainStatsGrid">
         <div class="stat grid-item grid-item-1">
           <div class="user-info">
             <div class="social-icon">
@@ -35,7 +44,7 @@
             <div class="follower-title">FOLLOWERS</div>
           </div>
           <div class="result good-result">
-            <span class="arrow up-arrow">~</span>
+            <span class="arrow up-arrow"><i class="fa-solid fa-caret-up"></i></span>
             <span class="count">12</span>
             <span class="timeline">Today</span>
           </div>
@@ -52,7 +61,7 @@
             <div class="follower-title">FOLLOWERS</div>
           </div>
           <div class="result good-result">
-            <span class="arrow up-arrow">~</span>
+            <span class="arrow up-arrow"><i class="fa-solid fa-caret-up"></i></span>
             <span class="count">99</span>
             <span class="timeline">Today</span>
           </div>
@@ -69,7 +78,7 @@
             <div class="follower-title">FOLLOWERS</div>
           </div>
           <div class="result good-result">
-            <span class="arrow up-arrow">~</span>
+            <span class="arrow up-arrow"><i class="fa-solid fa-caret-up"></i></span>
             <span class="count">1099</span>
             <span class="timeline">Today</span>
           </div>
@@ -86,7 +95,7 @@
             <div class="follower-title">SUBSCRIBERS</div>
           </div>
           <div class="result bad-result">
-            <span class="arrow down-arrow">~</span>
+            <span class="arrow down-arrow"><i class="fa-solid fa-caret-up fa-rotate-180"></i></span>
             <span class="count">8239</span>
             <span class="timeline">Today</span>
           </div>
@@ -95,4 +104,5 @@
     </div>
   </div>
 </body>
+
 </html>

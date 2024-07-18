@@ -42,10 +42,11 @@ $gridItemPadding: 1.4rem 2rem;
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20vh 100%;
+    padding: 20vh 50vw;
     background: $VeryPaleBlueTopBGPattern;
     background-position: top;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #main {

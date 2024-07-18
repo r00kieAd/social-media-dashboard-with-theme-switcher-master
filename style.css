@@ -9,10 +9,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20vh 100%;
+  padding: 20vh 50vw;
   background: hsl(225, 100%, 98%);
   background-position: top;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #main {

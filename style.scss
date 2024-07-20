@@ -57,6 +57,10 @@ $gridItemPadding: 1.4rem 2rem;
     width: $mainWidth;
     padding: 2rem;
 
+    @media screen and (min-width: 1900px) {
+        max-width: 60%;
+    }
+
     @media screen and (max-width: 1140px) {
         position: relative;
         top: 0;
@@ -174,7 +178,7 @@ $gridItemPadding: 1.4rem 2rem;
 
                 // toggle checked background
                 .toggle__input:checked~.toggle__fill {
-                    background: blue;
+                    background: $LimeGreen;
                 }
 
                 // toggle thumb
@@ -280,6 +284,7 @@ $gridItemPadding: 1.4rem 2rem;
                     justify-content: space-around;
                     align-items: center;
                     width: inherit;
+                    color: $DarkGrayishBlueText;
 
                     .social-icon {
                         margin: 4px 0 0 10px;
@@ -294,6 +299,7 @@ $gridItemPadding: 1.4rem 2rem;
                 .followers {
                     text-align: center;
                     margin: 10px 0;
+                    color: $VeryDarkBlueText;
 
                     .follower-count {
                         font-size: calc($regularFontSize + 45px);
@@ -343,8 +349,7 @@ $gridItemPadding: 1.4rem 2rem;
             margin: 1.5rem 0;
             font-size: calc($regularFontSize + 10px);
             font-weight: 600;
-            color: $LightMode;
-            filter: brightness(.6);
+            color: $DarkGrayishBlueText;
 
             @media screen and (max-width: 651px) {
                 text-align: center;
@@ -383,6 +388,7 @@ $gridItemPadding: 1.4rem 2rem;
                         justify-content: space-between;
                         align-items: center;
                         width: calc($gridItemWidth + 2rem);
+                        color: $VeryDarkBlueText;
 
                         .stat-name {
                             font-size: $regularFontSize;

@@ -24,6 +24,11 @@
   width: 80%;
   padding: 2rem;
 }
+@media screen and (min-width: 1900px) {
+  #main {
+    max-width: 60%;
+  }
+}
 @media screen and (max-width: 1140px) {
   #main {
     position: relative;
@@ -123,7 +128,7 @@
   background: hsl(230, 22%, 74%);
 }
 #main #subMain .title .theme-toggle .toggle__input:checked ~ .toggle__fill {
-  background: blue;
+  background: hsl(163, 72%, 41%);
 }
 #main #subMain .title .theme-toggle .toggle__fill::after {
   content: "";
@@ -204,6 +209,7 @@
   justify-content: space-around;
   align-items: center;
   width: inherit;
+  color: hsl(228, 12%, 44%);
 }
 #main #subMain #mainStatsGrid .stat .user-info .social-icon {
   margin: 4px 0 0 10px;
@@ -214,6 +220,7 @@
 #main #subMain #mainStatsGrid .stat .followers {
   text-align: center;
   margin: 10px 0;
+  color: hsl(230, 17%, 14%);
 }
 #main #subMain #mainStatsGrid .stat .followers .follower-count {
   font-size: calc(clamp(12px, 0.875rem, 15px) + 45px);
@@ -252,8 +259,7 @@
   margin: 1.5rem 0;
   font-size: calc(clamp(12px, 0.875rem, 15px) + 10px);
   font-weight: 600;
-  color: hsl(230, 22%, 74%);
-  filter: brightness(0.6);
+  color: hsl(228, 12%, 44%);
 }
 @media screen and (max-width: 651px) {
   #main #subMain .title-2 {
@@ -311,6 +317,7 @@
   justify-content: space-between;
   align-items: center;
   width: 12rem;
+  color: hsl(230, 17%, 14%);
 }
 #main #subMain #overviewStatsGrid .overview-grid .overview .stat-main .stat-name {
   font-size: clamp(12px, 0.875rem, 15px);

@@ -6,10 +6,6 @@
 
 This is a Social Media Dashboard Web Template, designed by someone in Frontend mentor and coded by me. This brings all your social media info about followers, likes, views etc. It's build on grid system and adjusts different grid styles for different screens. Some Elements will have their own hover states. The default view is light mode but there's an option to switch to dark mode as well.
 
-```
-> Coding for dark mode is still pending.
-```
-
 ## Technologies used
 
 ```

@@ -1,6 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme switcher
-
-![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+# Social media dashboard with theme switcher
 
 # About
 
@@ -24,3 +22,10 @@ f) VSCode (for Coding)
 ## Author
 
 Adhyatma Dwivedi
+
+## Screenshots
+
+![Light Mode Desktop Preview](./images/mac-ss.png)
+
+
+![Dark Mode Desktop Preview](./images/mac-ss-dark.png)
